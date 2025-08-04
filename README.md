@@ -104,7 +104,7 @@ The power law describes an expected finishing time $t_1$ for distance
 $d_1$ based on an earlier performance of $t_0$ over distance $d_0$:
 
 $$
-t_1 = (d2/d1)^\alpha
+t_1 = (d_2/d_1)^\alpha
 $$
 
 with $alpha \approx 1.065$.
@@ -112,7 +112,7 @@ with $alpha \approx 1.065$.
        Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
      0.7971  1.0462  1.0645  1.0641  1.0827  1.5240 
 
-Below is the distribution of $\alpha$ for the same (slightly flawed(
+Below is the distribution of $\alpha$ for the same (slightly flawed)
 dataset.
 
 ![](./power.png)
