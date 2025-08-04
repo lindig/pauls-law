@@ -5,7 +5,7 @@ Rowers train indoors on the [Concept 2] ergonometer, which measures the
 time to row a given distance. These numbers are generally used to assess
 fitness. 
 
-Frequently the question comes up, given an existing performace like
+Frequently the question comes up, given an existing performance like
 3:20min over 1000m, what performance can an athlete expect for another
 distance like 2000m or 5000m?
 
@@ -61,14 +61,14 @@ ranking that only includes verified results.
 * distance 2 in meters and time 2 in seconds
 
 So each line captures two performances _of the same athlete_ over two
-distances. The same athelete might have more entries in the this file.
+distances. The same athlete might have more entries in this file.
 
 ## The Paul Constant
 
 We compute in [pauls-law.r](./pauls-law.r) for each line the time
 change in split time per double the distance that predicts the second
 performance from the first. If Paul's Law is accurate, we expect this
-contant to be around 5s. 
+constant to be around 5s. 
 
 Below is the distribution of the Paul Constant as we found it:
 
