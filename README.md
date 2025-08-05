@@ -61,7 +61,11 @@ ranking that only includes verified results.
 * distance 2 in meters and time 2 in seconds
 
 So each line captures two performances _of the same athlete_ over two
-distances. The same athlete might have more entries in this file.
+distances. The same athlete may have more entries in this filer:
+
+    2025,m,22D90C393F79EC2180C6427A5F6FA0BE,45,1000,179.7,2000,391.8
+    2025,m,22D90C393F79EC2180C6427A5F6FA0BE,45,1000,179.7,5000,1047
+    2025,m,22D90C393F79EC2180C6427A5F6FA0BE,45,2000,391.8,5000,1047
 
 ## The Paul Constant
 
