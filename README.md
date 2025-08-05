@@ -104,7 +104,7 @@ The power law describes an expected finishing time $t_1$ for distance
 $d_1$ based on an earlier performance of $t_0$ over distance $d_0$:
 
 $$
-t_1 = (d_2/d_1)^\alpha
+t_1 = t_0 \times (d_1/d_0)^\alpha
 $$
 
 with $alpha \approx 1.065$.
