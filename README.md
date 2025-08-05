@@ -107,7 +107,7 @@ $$
 t_1 = t_0 \times (d_1/d_0)^\alpha
 $$
 
-with $alpha \approx 1.065$.
+with $\alpha \approx 1.064$.
 
        Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
      0.7971  1.0462  1.0645  1.0641  1.0827  1.5240 
