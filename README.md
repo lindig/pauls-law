@@ -22,6 +22,16 @@ common way to refer to speed. Given 3:20min over 1000m implies 1:40 over
 500m. For 2000m the expected time would be $1:45 \times 4 = 7:00$
 minutes.
 
+Paul's Law expressed as a formular when $t_0$ over distance $d_0$ is
+known and we are looking for the predicted time $t_1$ over distance
+$d_1$:
+
+$$
+t_1 = d_1 \left( \frac{t_0}{d_0} + 
+     \frac{1}{100}\mathrm{log}_2 \frac{d_1}{d_0}\right)
+$$
+
+
 <center>
 <strong>
 But how accurate is this "law"? This repository contains a dataset and
