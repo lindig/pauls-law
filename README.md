@@ -135,7 +135,7 @@ If we use $\alpha=1.64$, what does this mean for our initial example of
 1000m in 3:20min? 
 
 $$
-3:20 \times 2^1.064 = 06:58.14
+3:20 \times 2^{1.064} = 06:58.14
 $$
 
 It would predict a 2000m time of 06:58.14, slighty
