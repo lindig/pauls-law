@@ -61,7 +61,11 @@ ranking that only includes verified results.
 * distance 2 in meters and time 2 in seconds
 
 So each line captures two performances _of the same athlete_ over two
-distances. The same athlete might have more entries in this file.
+distances. The same athlete may have more entries in this filer:
+
+    2025,m,22D90C393F79EC2180C6427A5F6FA0BE,45,1000,179.7,2000,391.8
+    2025,m,22D90C393F79EC2180C6427A5F6FA0BE,45,1000,179.7,5000,1047
+    2025,m,22D90C393F79EC2180C6427A5F6FA0BE,45,2000,391.8,5000,1047
 
 ## The Paul Constant
 
@@ -104,10 +108,10 @@ The power law describes an expected finishing time $t_1$ for distance
 $d_1$ based on an earlier performance of $t_0$ over distance $d_0$:
 
 $$
-t_1 = (d_2/d_1)^\alpha
+t_1 = t_0 \times (d_1/d_0)^\alpha
 $$
 
-with $alpha \approx 1.065$.
+with $\alpha \approx 1.064$.
 
        Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
      0.7971  1.0462  1.0645  1.0641  1.0827  1.5240 
