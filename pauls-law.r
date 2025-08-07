@@ -35,7 +35,7 @@ p2 <-
   geom_vline(aes(xintercept = mean_alpha)) +
   labs(title = "Distribution of Constant Alpha",
        subtitle = paste("Mean =", round(mean_alpha, 3)),
-       x = "Constant",
+       x = "alpha",
        y = "Frequency")
 
 ggsave("power.png", p2)
