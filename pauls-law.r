@@ -21,11 +21,13 @@ summary(df$alpha)
 
 p1 <-
   ggplot(data=df, aes(x = paul)) +
-  geom_histogram(bins=60, fill="skyblue") +
+  geom_histogram(bins=40, fill="skyblue") +
   geom_vline(aes(xintercept = mean_paul)) +
+  scale_x_continuous(breaks = seq(from = -5, to = 15, by = 2)) +
+  xlim(-5,15) +
   labs(title = "Distribution of Paul's Constant",
        subtitle = paste("Mean =", round(mean_paul, 2)),
-       x = "Constant",
+       x = "Constant (seconds)",
        y = "Frequency")
 ggsave("paul.png", p1)
 
@@ -33,6 +35,7 @@ p2 <-
   ggplot(data=df, aes(x = alpha)) +
   geom_histogram(bins=60, fill="skyblue") +
   geom_vline(aes(xintercept = mean_alpha)) +
+  xlim(0.8,1.2) +
   labs(title = "Distribution of Constant Alpha",
        subtitle = paste("Mean =", round(mean_alpha, 3)),
        x = "alpha",

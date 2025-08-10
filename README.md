@@ -91,8 +91,8 @@ Below is the distribution of the Paul Constant as we found it:
 ![](./paul.png)
 
 
-       Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    -18.700   3.683   5.012   5.026   6.317  40.725 
+       Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+    -29.500   3.721   5.035   5.029   6.335  40.725
 
 
 Paul's Law appears to be quite accurate on average: An increase of 5.0
@@ -125,9 +125,10 @@ $$
 
 with $\alpha \approx 1.064$.
 
-       Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-     0.7971  1.0462  1.0645  1.0641  1.0827  1.5240 
 
+       Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+     0.6607  1.0464  1.0650  1.0643  1.0828  1.5240
+           
 Below is the distribution of $\alpha$ for the same (slightly flawed)
 dataset.
 
