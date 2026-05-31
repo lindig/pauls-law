@@ -134,7 +134,7 @@ dataset.
 
 ![](./power.png)
 
-If we use $\alpha=1.64$, what does this mean for our initial example of
+If we use $\alpha=1.064$, what does this mean for our initial example of
 1000m in 3:20min? 
 
 $$
@@ -146,4 +146,3 @@ faster than the prediction by Paul's Law of 7:00.
 
 [Concept 2]: https://www.concept2.com
 [Logbook]: https://log.concept2.com/rankings
-
