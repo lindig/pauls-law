@@ -9,6 +9,9 @@ Frequently the question comes up, given an existing performance like
 3:20min over 1000m, what performance can an athlete expect for another
 distance like 2000m or 5000m?
 
+For a more thorough investigation, see 
+[Does erg performance follow a 1.064 power law?](https://github.com/lindig/endurance).
+
 ## Paul's Law
 
 Paul's Law, a folklore whose origin in rowing is not clear, provides a
